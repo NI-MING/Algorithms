@@ -11,9 +11,7 @@ public class Selection {
                     min = j;
                 }
             }
-            int temp = a[min];
-            a[min] = a[i];
-            a[i] = temp;
+            Utils.exch(a,min,i);
         }
     }
 
